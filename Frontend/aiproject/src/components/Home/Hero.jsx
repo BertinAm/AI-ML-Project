@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from '../shared/Card'
-import illustration from '../Images/online-translator-pana.jpg'
-import illustration1 from '../Images/assetsimage.jpeg'
+import illustration from '../Images/online-translator-pana-removebg-preview.png'
+import illustration1 from '../Images/assetsimage-removebg-preview.png'
 
 const Hero = () => {
   return (
@@ -11,19 +11,15 @@ const Hero = () => {
     <section className="card-section">
             <Card text="Face detection" 
             style={{
-                paddingTop:'1.5em',
-                paddingLeft:'5em',
-                paddingBottom:'1.5em',
-                paddingRight:'5em'
+                paddingTop:'3em',
+                paddingBottom:'3em',
              }}
              src={illustration1}    
              /> 
             <Card text="Translator"
               style={{
-                paddingTop:'1.5em',
-                paddingLeft:'6.5em',
-                paddingBottom:'1.5em',
-                paddingRight:'6.5em'
+                paddingTop:'3em',
+                paddingBottom:'3em',
              }}
              src={illustration}
              />
