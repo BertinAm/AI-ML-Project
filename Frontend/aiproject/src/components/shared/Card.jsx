@@ -4,10 +4,9 @@ import {faArrowRight } from '@fortawesome/free-solid-svg-icons'
 const Card = (props) => {
   return (
     <main className="cards" style={props.style} >
+        <div className="illustration"><img src={props.src} alt="" className="tllustrate" />    </div>
         <p className="text">{props.text}</p>
-        <div className="icon">
-        <FontAwesomeIcon icon={faArrowRight} className='iconx' />
-        </div>
+        <FontAwesomeIcon icon={faArrowRight} className='iconx' /> 
     </main>
   )
 }
