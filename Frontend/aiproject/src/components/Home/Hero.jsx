@@ -12,14 +12,14 @@ const Hero = () => {
             <Card text="Face detection" 
             style={{
                 paddingTop:'3em',
-                paddingBottom:'3em',
+                paddingBottom:'3em'
              }}
              src={illustration1}    
              /> 
             <Card text="Translator"
               style={{
                 paddingTop:'3em',
-                paddingBottom:'3em',
+                paddingBottom:'3em'
              }}
              src={illustration}
              />
