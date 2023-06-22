@@ -79,15 +79,23 @@
 /* subjected to changes */
 .input{
   border: dashed 1px black;
-  width: 48%;
-  border-radius: 10px;
+  border-radius: 8px;
+  height: 20em;
 }
 .labels{
   display: flex;
   margin: 0 auto;
-  width: 60%;
-  border: dashed 1px black;
+  width: 70%;
+  /* border: dashed 1px black; */
   justify-content: space-between;
+}
+.labelleft,.labelright{
+  flex: 50%;
+  border: solid 1px black;
+  margin-left: 1em;
+}
+.header,.labeltext{
+  text-align: center;
 }
 
 }

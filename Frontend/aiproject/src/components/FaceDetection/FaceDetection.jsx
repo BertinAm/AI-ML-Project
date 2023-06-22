@@ -5,14 +5,14 @@ const FaceDetection = () => {
     <div className='main'>
         <p className="header">Test Out our Face Detection Algorithm </p>
         <div className="labels">
-            <div className="labelleft">
-                <p>input</p>
+            <div className="labelleft"> 
+                <p className='labeltext' >input</p>
                 <div className="input">
                <input type="file" className='picinput' />
                 </div>
             </div>
             <div className="labelright">
-            <p>output</p>
+            <p className='labeltext'>output</p>
             <div className="input">nnnnn</div>
             </div>
         </div>
