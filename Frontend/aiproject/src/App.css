@@ -6,13 +6,11 @@
 .navbar{
   background: #20073E;
   padding: 2em 0em 0.85em 0em ;
- 
 }
 .navlinks{
   display: flex;
   list-style: none;
   color :white;
-  /* border: solid 3px white;  */
   width: 30%;
   margin: 0 auto;
   justify-content: space-between;
@@ -32,15 +30,20 @@
 }
 .cards{
   background: black;
-  border-radius: 10px;
+  border-radius: 7px;
 }
 .card-section{
   display: flex;
-  width: 35%;
+  width: 45%;
   margin: 0 auto;
-    border: solid 3px black; 
-    justify-content: space-between;
-}
-.cards{
-  padding: 2.5em 3em;
+  justify-content: space-between;
+margin-top: 5em;
+}x½
+.icon{
+  color :white;
+  font-size: 1.75em;
+  text-align: center;
+  /* border: solid 3px white;  */
+  width: 100%;
+  margin: 0 auto;
 }
