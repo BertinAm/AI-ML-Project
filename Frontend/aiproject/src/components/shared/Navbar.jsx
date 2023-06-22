@@ -7,11 +7,16 @@ const Navbar = () => {
 <ul className="navlinks">
 <Link  to="/" ><li className="navlink">Home</li></Link> 
 <Link  to="FaceDetection" > <li className="navlink">Face Detection</li></Link>
-    {/* <li className="navlink">Face Detection</li> */}  
+     <li className="navlink">
+          <Link to="translate" className="link">
+            Translation
+          </Link>
+        </li> 
     <li className="navlink">Translation</li>
 </ul>
    </main>
   )
 }
+
 
 export default Navbar

@@ -17,9 +17,16 @@
   width: 80%;
   justify-content: space-between;
 }
+
 .navlink{
   color :white;
   text-decoration: none;
+}
+
+
+.link{
+  text-decoration: none;
+  color: #fff;
 }
 
 .hero1{

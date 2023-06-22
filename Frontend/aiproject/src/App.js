@@ -11,9 +11,11 @@ function App() {
    <Routes>   
    <Route path='/' element={<Home/>} />
    <Route path='FaceDetection' element={<FaceDetection/>} /> 
-       {/* <Route path='About' element={<About/>} /> */}
+  <Route path="translate" element={<TextTranslate />} />
+
    </Routes>
  </BrowserRouter>
+
   );
 }
 
