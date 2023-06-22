@@ -17,10 +17,18 @@
   width: 80%;
   justify-content: space-between;
 }
+
+.navlink{
+  color :white;
+  text-decoration: none;
+}
+
+
 .link{
   text-decoration: none;
   color: #fff;
 }
+
 .hero1{
   text-align: center;
   margin: 2em 0em 2em 0em; 
