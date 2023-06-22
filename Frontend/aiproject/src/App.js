@@ -1,13 +1,19 @@
 import './App.css';
-import Hero from './components/Home/Hero';
+import FaceDetection from './components/FaceDetection/FaceDetection';
+import Home from './components/Home/Home';
 import Navbar from './components/shared/Navbar';
+import { BrowserRouter,  Routes,Route} from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar/>
-      < Hero/>
-    </div>
+    <BrowserRouter className="App">
+   <Navbar/>
+   <Routes>   
+   <Route path='/' element={<Home/>} />
+   <Route path='FaceDetection' element={<FaceDetection/>} /> 
+       {/* <Route path='About' element={<About/>} /> */}
+   </Routes>
+ </BrowserRouter>
   );
 }
 
