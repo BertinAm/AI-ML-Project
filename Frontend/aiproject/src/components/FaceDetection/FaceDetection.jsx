@@ -11,7 +11,10 @@ const FaceDetection = () => {
                <input type="file" className='picinput' />
                 </div>
             </div>
-            <div className="labelright"></div>
+            <div className="labelright">
+            <p>output</p>
+            <div className="input">nnnnn</div>
+            </div>
         </div>
     </div>
   )

@@ -76,6 +76,20 @@
   margin-top: -1px;
  text-align: center;
 }
+/* subjected to changes */
+.input{
+  border: dashed 1px black;
+  width: 48%;
+  border-radius: 10px;
+}
+.labels{
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+  border: dashed 1px black;
+  justify-content: space-between;
+}
+
 }
 @media only screen and (min-width:768px){
   .navbar{
