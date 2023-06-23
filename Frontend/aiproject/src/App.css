@@ -75,6 +75,7 @@
   margin-bottom:-2px ;
   margin-top: -1px;
  text-align: center;
+ color:white;
 }
 /* subjected to changes  , for the face detection page*/
 .input{
@@ -150,13 +151,14 @@ padding: 0em 8em;
   .cards{
     border-radius: 10px;
     width:45%;
+    color:black;
   }
   .card-section{
     display: flex;
     width: 70%;
     margin: 0 auto;
     justify-content: space-between;
-    margin-top: 4em;
+    margin-top: 2em;
   }
   .iconx{
     font-size: 1.75em;
