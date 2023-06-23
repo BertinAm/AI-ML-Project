@@ -76,27 +76,35 @@
   margin-top: -1px;
  text-align: center;
 }
-/* subjected to changes */
+/* subjected to changes  , for the face detection page*/
 .input{
   border: dashed 1px black;
-  border-radius: 8px;
+  border-radius: 10px;
   height: 20em;
+  padding: 2em;
 }
 .labels{
-  display: flex;
-  margin: 0 auto;
-  width: 70%;
-  justify-content: space-between;
+  display: block;
+  width: 100%;
 }
 .labelleft,.labelright{
-  flex: 50%;
-  border: solid 1px black;
   margin-left: 1em;
+  margin-right: 1em;
+  text-align: center; 
 }
 .header,.labeltext{
   text-align: center;
 }
-
+.labeltext{
+  font-weight: 900;
+}
+.labelicon{
+  font-size: 8em;
+  margin-top: 35px;
+}
+.labeltext1{
+  line-height: 25px;
+}
 }
 @media only screen and (min-width:768px){
   .navbar{
@@ -107,7 +115,7 @@
     margin: 0 auto;
   }
   .hero1{
-    margin: 2em 0em 3em 0em; 
+    margin: 2em 0em 2em 0em; 
   }
   .hero2{
     font-size: 3em;
@@ -121,12 +129,28 @@
     width: 70%;
     margin: 0 auto;
     justify-content: space-between;
-    margin-top: 5em;
+    margin-top: 4em;
   }
   .iconx{
     font-size: 1.75em;
     margin-top: -3em;
     margin-bottom:-10px ;
   }
-
+  /* subjected to changes  , for the face detection page*/
+.input{
+  padding: 2em 4.5em;
+}
+.labels{
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  justify-content: space-between;
+}
+.labelleft,.labelright{
+  flex: 50%;
+  margin-left: 1em;
+}
+.labelicon{
+  margin-top: 3px;
+}
  }

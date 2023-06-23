@@ -1,5 +1,8 @@
 import React from 'react'
 import './FaceDetection.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faCloudArrowUp } from '@fortawesome/free-solid-svg-icons'
+
 const FaceDetection = () => {
   return (
     <div className='main'>
@@ -8,12 +11,15 @@ const FaceDetection = () => {
             <div className="labelleft"> 
                 <p className='labeltext' >input</p>
                 <div className="input">
-               <input type="file" className='picinput' />
+               <FontAwesomeIcon icon={faCloudArrowUp} className='labelicon' /> 
+               <p className='labeltext1' >To perform Face Detection</p>
+                <p className='labeltext1' >Drag and Drop the image  here or click
+                 on the below to upload an image </p>
                 </div>
             </div>
             <div className="labelright">
             <p className='labeltext'>output</p>
-            <div className="input">nnnnn</div>
+            <div className="input"> </div>
             </div>
         </div>
     </div>
