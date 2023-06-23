@@ -10,10 +10,13 @@
 .navlinks{
   display: flex;
   list-style: none;
-  color :white;
   width: 30%;
   margin: 0 auto;
   justify-content: space-between;
+}
+.link{
+  text-decoration: none;
+  color: #fff;
 }
 .hero1{
   text-align: center;
