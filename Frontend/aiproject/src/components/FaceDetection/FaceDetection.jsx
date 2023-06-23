@@ -2,6 +2,7 @@ import React from 'react'
 import './FaceDetection.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faCloudArrowUp } from '@fortawesome/free-solid-svg-icons'
+import {faArrowUpFromBracket } from '@fortawesome/free-solid-svg-icons'
 
 const FaceDetection = () => {
   return (
@@ -21,6 +22,12 @@ const FaceDetection = () => {
             <p className='labeltext'>output</p>
             <div className="input"> </div>
             </div>
+        </div>
+        <div className="bittondiv">
+          <button className="button">
+          <FontAwesomeIcon icon={faArrowUpFromBracket } className='btnicon' /> 
+          <p className="btntext">Upload</p>
+          </button>
         </div>
     </div>
   )

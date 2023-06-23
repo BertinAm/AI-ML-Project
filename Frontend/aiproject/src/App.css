@@ -105,6 +105,33 @@
 .labeltext1{
   line-height: 25px;
 }
+/* changes done to the upload button */
+/*btnlicon btntext */
+.bittondiv{
+  /* width: 10%; */
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+}
+.button {
+background: #20073E;
+display: flex;
+justify-content: center;
+width: 70%;
+border-radius: 10px;
+border: none;
+padding: 0em 8em;
+}
+.btntext{
+  color: white;
+ }
+ .btnicon{
+  color: white;
+  font-size: 2em;
+  margin-top: 0.35em;
+  margin-right: 10px;
+ }
 }
 @media only screen and (min-width:768px){
   .navbar{
@@ -153,4 +180,13 @@
 .labelicon{
   margin-top: 3px;
 }
- }
+/* changes done to the upload button */
+.bittondiv{
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+}
+
+}
