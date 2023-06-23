@@ -7,7 +7,7 @@ const Card = (props) => {
   
   return (
     <main className="cards" style={props.style} > 
-        <div className="illustration"><img src={props.src} alt="" className="tllustrate" />    </div>
+        <div className="illustration"><img src={props.src} alt="" className="tllustrate" /></div>
         <p className="text">{props.text}</p>
         <FontAwesomeIcon icon={faArrowRight} className='iconx' /> 
     </main>
