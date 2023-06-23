@@ -1,0 +1,25 @@
+.input input {
+    display: none;
+}
+
+.input {
+    transition: all 300ms ease;
+}
+
+.input_active {
+    background: rgba(46, 1, 85, 0.226);
+}
+
+.input_active .labeltext1:last-of-type {
+    font-weight: bold;
+}
+
+.bittondiv .button:disabled {
+    cursor: not-allowed;
+    background-color: gray;
+}
+
+.bittondiv .button {
+    cursor: pointer;
+    transition: all 300ms ease;
+}
