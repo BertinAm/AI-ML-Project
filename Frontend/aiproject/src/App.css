@@ -76,6 +76,62 @@
   margin-top: -1px;
  text-align: center;
 }
+/* subjected to changes  , for the face detection page*/
+.input{
+  border: dashed 1px black;
+  border-radius: 10px;
+  height: 20em;
+  padding: 2em;
+}
+.labels{
+  display: block;
+  width: 100%;
+}
+.labelleft,.labelright{
+  margin-left: 1em;
+  margin-right: 1em;
+  text-align: center; 
+}
+.header,.labeltext{
+  text-align: center;
+}
+.labeltext{
+  font-weight: 900;
+}
+.labelicon{
+  font-size: 8em;
+  margin-top: 35px;
+}
+.labeltext1{
+  line-height: 25px;
+}
+/* changes done to the upload button */
+/*btnlicon btntext */
+.bittondiv{
+  /* width: 10%; */
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+}
+.button {
+background: #20073E;
+display: flex;
+justify-content: center;
+width: 70%;
+border-radius: 10px;
+border: none;
+padding: 0em 8em;
+}
+.btntext{
+  color: white;
+ }
+ .btnicon{
+  color: white;
+  font-size: 2em;
+  margin-top: 0.35em;
+  margin-right: 10px;
+ }
 }
 @media only screen and (min-width:768px){
   .navbar{
@@ -86,7 +142,7 @@
     margin: 0 auto;
   }
   .hero1{
-    margin: 2em 0em 3em 0em; 
+    margin: 2em 0em 2em 0em; 
   }
   .hero2{
     font-size: 3em;
@@ -100,12 +156,37 @@
     width: 70%;
     margin: 0 auto;
     justify-content: space-between;
-    margin-top: 5em;
+    margin-top: 4em;
   }
   .iconx{
     font-size: 1.75em;
     margin-top: -3em;
     margin-bottom:-10px ;
   }
+  /* subjected to changes  , for the face detection page*/
+.input{
+  padding: 2em 4.5em;
+}
+.labels{
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  justify-content: space-between;
+}
+.labelleft,.labelright{
+  flex: 50%;
+  margin-left: 1em;
+}
+.labelicon{
+  margin-top: 3px;
+}
+/* changes done to the upload button */
+.bittondiv{
+  width: 10%;
+  margin: 0 auto;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  
+}
 
- }
+}

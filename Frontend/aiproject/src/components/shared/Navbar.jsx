@@ -12,7 +12,6 @@ const Navbar = () => {
             Translation
           </Link>
         </li> 
-    <li className="navlink">Translation</li>
 </ul>
    </main>
   )
