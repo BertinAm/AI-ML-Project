@@ -86,7 +86,6 @@
   display: flex;
   margin: 0 auto;
   width: 70%;
-  /* border: dashed 1px black; */
   justify-content: space-between;
 }
 .labelleft,.labelright{
