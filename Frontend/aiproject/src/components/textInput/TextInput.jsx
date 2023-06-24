@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import styles from "./TextInput.module.css";
 
-function TextInput({ placeholder }) {
+function TextInput({ placeholder, getText }) {
   let [active, setActive] = useState(false);
+  const [text, setText] = useState("");
+  const handleTextareaChange = (event) => {
+    setText(event.target.value);
+    getText(event.target.value);
+  };
 
   return (
     <div className={styles.mainContainer}>
@@ -30,6 +35,8 @@ function TextInput({ placeholder }) {
         id=""
         cols="30"
         rows="10"
+        value={text}
+        onChange={handleTextareaChange}
         placeholder={placeholder}
       ></textarea>
     </div>

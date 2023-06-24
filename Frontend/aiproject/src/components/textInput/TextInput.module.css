@@ -47,5 +47,9 @@
     color: #000;
     font-weight: 500;
     font-size: 1rem;
-
+}
+@media screen and (max-width: 700px) {
+    .mainContainer{
+        width: 80%
+    }
 }
